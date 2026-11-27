@@ -1,0 +1,4 @@
+# Not: OpenCV ve numpy pip'ten DEĞİL apt'ten gelir (GStreamer desteği için):
+#   sudo apt install python3-opencv python3-numpy
+# Ortam --system-site-packages ile kurulduğu için bu paketleri görür.
+# Bu ortama "pip install opencv-python" YAPMAYIN, desteksiz sürüm üstüne biner.

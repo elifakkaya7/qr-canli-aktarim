@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Çalışma sırasında oluşan kayıtlar (örnek dosyalar hariç)
+logs/*.csv
+!logs/ornek_*.csv
+logs/snapshots/
+
+# Büyük video kayıtları
+*.mp4
+*.avi
+*.mkv
+
+# Editör / sistem
+.vscode/
+.idea/
+.DS_Store
