@@ -9,7 +9,7 @@ QR kodlarını göndericide çözüp sonucu ayrı bir UDP kanalıyla (JSON) gön
 _TODO_
 
 ## Gereksinimler
-- Ubuntu 24.04, Python 3.12, webcam, iki bilgisayar aynı ağda
+- Ubuntu 24.04 ve test edilen diğer sistemler, Python 3.12, webcam, iki bilgisayar aynı ağda
 - apt paketleri:
   ```bash
   sudo apt install gstreamer1.0-tools gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
@@ -19,6 +19,8 @@ _TODO_
 
 ## Kurulum
 ```bash
+Conda/venv açıksa önce conda deactivate / deactivate yapın; which python3 çıktısı /usr/bin/python3
+
 /usr/bin/python3 -m venv --system-site-packages .venv
 source .venv/bin/activate
 pip install -r requirements.txt
